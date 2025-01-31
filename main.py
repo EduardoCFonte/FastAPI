@@ -20,7 +20,7 @@ def index():
 def unpublished():
     return{ 'data' : 'all unpublished blogs'}
 
-@app.get('/blog/{id}')
+@app.get('/blogs/{id}')
 def show(id:int):
     #fetch blog with id = id
     return {"data" : id}
