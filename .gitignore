@@ -1,1 +1,4 @@
 FastAPIVenv
+.env
+__pycache__/
+*.pyc
